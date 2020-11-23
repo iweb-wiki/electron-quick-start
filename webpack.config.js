@@ -39,13 +39,14 @@ module.exports = {
     new CleanWebpackPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new MiniCssExtractPlugin(),
-    new CopyPlugin({
-      patterns: [{ from: '/index.html' }],
-    }),
+    // new CopyPlugin({
+    //   patterns: [{ from: '/index.html' }],
+    // }),
     new HtmlWebpackPlugin({
       title: "Note",
-      appMountId: 'app',
-      filename: 'index.html'
+      // appMountId: 'app',
+      // filename: 'index.html',
+      template: 'index.html'
     }),
   ],
   module: {
