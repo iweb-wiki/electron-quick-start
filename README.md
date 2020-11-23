@@ -1,9 +1,15 @@
-## 开发
+# umi project
+
+## Getting Started
+
+Install dependencies,
 
 ```bash
-npm i
-# 页面开发
-npm run dev
-# 运行应用
-npm start
+$ yarn
+```
+
+Start the dev server,
+
+```bash
+$ yarn start
 ```
